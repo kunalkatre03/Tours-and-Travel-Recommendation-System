@@ -53,7 +53,7 @@ o	Serving recommendations to the frontend
 •	Connect it to your MongoDB/MySQL database.
 •	Ensure security & performance optimization.
 
-Tools & Technologies Required
+<br>Tools & Technologies Required
 •	Backend: Node.js (Express.js) / Python (Flask, FastAPI)
 •	Database: MongoDB / MySQL / Firebase
 •	Machine Learning (Optional): Scikit-learn / TensorFlow
