@@ -54,8 +54,8 @@ o	Serving recommendations to the frontend
 •	Ensure security & performance optimization.
 
 <br><h1>Tools & Technologies Required</h1>
-•	Backend: Node.js (Express.js) / Python (Flask, FastAPI)
-•	Database: MongoDB / MySQL / Firebase
-•	Machine Learning (Optional): Scikit-learn / TensorFlow
-•	Frontend: React.js / Vue.js / HTML+JS
+•	Backend: Node.js (Express.js) / Python (Flask, FastAPI)<br>
+•	Database: MongoDB / MySQL / Firebase<br>
+•	Machine Learning (Optional): Scikit-learn / TensorFlow<br>
+•	Frontend: React.js / Vue.js / HTML+JS<br>
 •	Hosting: AWS, Heroku, Firebase Hosting
