@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import PorterStemmer
 
 # Load dataset
-city = pd.read_csv("../cities.csv")
+city = pd.read_csv("Tours-and-Travel-Recommendation-System\backend\cities_with_images.csv")
 
 # Data Cleaning
 city = city.drop(['Best_time_to_visit'], axis=1, errors='ignore')  # Ignore if column doesn't exist
