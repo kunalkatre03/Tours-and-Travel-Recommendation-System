@@ -4,6 +4,11 @@ from model import recommend
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend integration
+# ✅ Home Page Route
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({"message": "Welcome to the Tours & Travel Recommendation System API"}), 200
+
 
 @app.route("/recommend", methods=["GET"])
 def get_recommendations():
