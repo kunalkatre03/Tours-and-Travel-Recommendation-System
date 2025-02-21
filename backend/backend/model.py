@@ -3,9 +3,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import PorterStemmer
-
+ # D:/Project 1/Tours-and-Travel-Recommendation-System/backend/backend/cities_with_images.csv
 # Load dataset
-file_path = r"C:\Users\ideal\Desktop\Project 1\Tours-and-Travel-Recommendation-System\backend\cities_with_images.csv"
+file_path = r"D:/Project 1/Tours-and-Travel-Recommendation-System/backend/backend/cities_with_images.csv"
 city = pd.read_csv(file_path)
 
 # Data Cleaning
