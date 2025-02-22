@@ -1,0 +1,8 @@
+pip install flask
+
+pip install flask-cors
+python -c "import flask_cors; print('flask_cors is installed!')"
+ pip install numpy
+  pip install pandas
+  pip install scikit-learn
+  pip install nltk
